@@ -1,88 +1,57 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+// import { getPosts } from '../redux/actions/fooActions';
+import { setCount } from '../redux/actions/counter'
 
-const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+import Data from "../data/quiz";
+import Link from "next/link";
+import PageHead from "../components/Head";
+import './index.css'
 
-    <Nav />
+const Index = props => {
+  return (
+        <div id="index">
+    <PageHead/>
+ 
 
-    <div className="hero">
-      <h1 className="title">Welcome to Next.js!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
+   <div className="container"> 
+     <div className="container-desc">
+       <h2>Can you hear me, Major Tom?</h2>
+         <br />
+         <h4>Intenta cantar la canción principal de David Bowie correctamente.</h4>
+      
+        <p>Hace 50 años, se lanzó una de las principales canciones del siglo XX: 
+  
+          "Space Oddity". La composición se volvió legendaria y se usó
+          muy a menudo en películas, programas de televisión, comerciales, videojuegos, y 
+          también fue interpretada regularmente por otros músicos.
+          Te sugerimos que cantes 
+          "Space Oddity" por enésima vez y que no mezcles las palabras. 
+          <br/>
+          ¿Puedes manejarlo?
+          <br/> <br/>
+          Ten, Nine, Eight, Seven, Six, Five, Four, Three, Two, One…
       </p>
+     </div>
+       <div className="btn-submit">
+         <Link href="/questions/[id]" as={`/questions/${props.questions[0].id}`}>
+          
+           <button>Liftoff!</button>
+         </Link>
+       </div>
+   </div>
+   </div>
+  );
+};
 
-      <div className="row">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Learn more about Next.js in the documentation.</p>
-        </a>
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Next.js Learn &rarr;</h3>
-          <p>Learn about Next.js by following an interactive tutorial!</p>
-        </a>
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Find other example boilerplates on the Next.js GitHub.</p>
-        </a>
-      </div>
-    </div>
+Index.getInitialProps = async ({ store, isServer, pathname, query }) => {
+  await store.dispatch(setCount(0));
+  const data = Data.questions;
+  return { questions: data };
+};
 
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
-      }
-    `}</style>
-  </div>
-)
+export default connect(
+  state => state,
+  { setCount }
+)(Index);
 
-export default Home

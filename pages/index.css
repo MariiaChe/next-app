@@ -1,0 +1,42 @@
+#index .container {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 560px;
+  background: white;
+  border: 2px solid #d4d5d9;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+}
+#index.container-desc {
+  color: rgba(0, 0, 0, 0.7);
+}
+#index h2 {
+  font-size: 40px;
+  margin: 0;
+}
+#index h4 {
+  font-size: 22px;
+  margin: 0px;
+}
+#index p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 26px;
+}
+#index button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #21212c;
+  color: #d8d9dd;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+#index button:focus {
+  outline: none;
+}

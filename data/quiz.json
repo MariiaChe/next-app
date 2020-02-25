@@ -1,0 +1,222 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ground control <span style=color:#FC0FC0; > ___ </span> Major Tom",
+
+      "options": [
+        {
+          "a": "The Major Tom"
+        },
+        {
+          "b": "A Major Tom"
+        },
+        {
+          "c": "To Major Tom"
+        },
+        {
+          "d": "For Major Tom"
+        }
+      ],
+      "answer": "To Major Tom",
+      "answ_desc": "La canción comienza con las palabras «Ground Control to Major Tom», un mensaje del Mission Control Center para Major Tom. Major Tom es el protagonista de la canción «Space Oddity», acuñada por David Bowie. Según la trama, Tom es enviado al espacio exterior."
+    },
+    {
+      "id": 2,
+      "question": "Take your protein pills and put your <span style=color:#FC0FC0; > ___</span>",
+      "options": [
+        {
+          "a": "Velvet tone"
+        },
+        {
+          "b": "Helmet on"
+        },
+        {
+          "c": "Planet gone"
+        },
+        {
+          "d": "Cosmic zone"
+        }
+      ],
+      "answer": "Helmet on",
+      "answ_desc": "Tom es informado de que necesita tomar pildoras de proteinas y ponerse un casco. «Helmet on» es la respuesta correcta. Major Tom no es solo el héroe de «Space Oddity». En 1980, reaparecerá en la canción de David Bowie «Ashes to Ashes», ella encabezará de inmediato todas las listas de música."
+    },
+    {
+      "id": 3,
+      "question": "Commencing countdown, engines on Check ignition and may<span style=color:#FC0FC0; > ___</span> be with you.",
+      "options": [
+        {
+          "a": "Monsters"
+        },
+        {
+          "b": "God's love"
+        },
+        {
+          "c": "Hotspot"
+        },
+        {
+          "d": "Transport"
+        }
+      ],
+      "answer": "God's love",
+      "answ_desc": "«Comenzando cuenta en descenso, motores encendidos». Y luego, por supuesto, la frase  «May Godʼs love be with you»  - «Que el amor de Dios lo acompañe» Otro hecho entretenido y conocido: Bowie se inspiró en la película «The Space Odyssey», dirigida por Stanley Kubrick. Salió en 1968."
+    },
+    {
+      "id": 4,
+      "question": "This is Ground Control to Major Tom, you've really<span style=color:#FC0FC0; > ___</span>",
+      "options": [
+        {
+          "a": "So afraid"
+        },
+        {
+          "b": "Made the grade"
+        },
+        {
+          "c": "Need upgrade"
+        },
+        {
+          "d": "Lemonade"
+        }
+      ],
+      "answer": "Made the grade",
+      "answ_desc": "En el coro, el mayor Tom es informado de que lo ha logrado. Por cierto, «Space Oddity» tiene una versión italiana, que el mismo Bowie grabó en colaboración con el poeta Giulio Rapetti. Hay exactamente la misma música, pero un texto completamente diferente. La canción «Ragazzo Solo, Ragazza Sola» habla sobre el amor perdido. Ella suena en la película Bernardo Bertolucci «Yo y tú»."
+    },
+    {
+      "id": 5,
+      "question": "And the<span style=color:#FC0FC0; > ___ </span> want to know whose shirts you wear",
+      "options": [
+        {
+          "a": "Spaceman"
+        },
+        {
+          "b": "Papers"
+        },
+        {
+          "c": "Daughters"
+        },
+        {
+          "d": "Winners"
+        }
+      ],
+      "answer": "Papers",
+      "answ_desc": "«Los periodicos quieren saber qué camisas usa mayor Tom». ¡Esto es literal! Curiosamente, el productor y amigo de David Bowie, Tony Visconti, consideró que «Space Oddity» era un intento de recolectar likes en un tema espacial popular y argumentó que ciertamente no tendría éxito. Por lo tanto, la canción fue grabada por otro productor: Gus Dajen."
+    },
+    {
+      "id": 6,
+      "question": " Now it's  time to leave  the capsule <span style=color:#FC0FC0; > ___</span>",
+      "options": [
+        {
+          "a": "If you dare"
+        },
+        {
+          "b": "Anywhere"
+        },
+        {
+          "c": "If you can"
+        },
+        {
+          "d": "If you stare"
+        }
+      ],
+      "answer": "If you dare",
+      "answ_desc": "Es hora de dejar la cápsula si no tienes miedo. «Now it's time to leave the capsule if you dare!» En 2018, Elon Musk lanzó el auto eléctrico Tesla al espacio. Un maniquí se sienta al volante de un automóvil, con «Space Oddity» constantemente reproduciendo en los audífonos."
+    },
+    {
+      "id": 7,
+      "question": "This is Major Tom to Ground Control. I'm stepping through the door. And i'm floating in a most <span style=color:#FC0FC0; >___</span> way. And the stars look very different today...",
+      "options": [
+        {
+          "a": "Curious"
+        },
+        {
+          "b": "Unusual"
+        },
+        {
+          "c": "Peculiar"
+        },
+        {
+          "d": "Singular"
+        }
+      ],
+      "answer": "Peculiar",
+      "answ_desc": "El mayor Tom deja la cápsula y vuela de forma extraña. Y las estrellas de hoy se ven diferentes. En 2013, el comandante de la EEI Chris Hadfield publicó una versión de la canción de Bowie en YouTube. Este fue el primer video musical filmado en el espacio. Casi 44 millones de personas lo vieron. Es cierto que el texto ha sido ligeramente modificado. No dice una palabra sobre el inminente desastre."
+    },
+    {
+      "id": 8,
+      "question": "For here  Am I sitting in a <span style=color:#FC0FC0; > ___ </span>Far above the world",
+      "options": [
+        {
+          "a": "Tin can"
+        },
+        {
+          "b": "Сabin"
+        },
+        {
+          "c": "Vulcan"
+        },
+        {
+          "d": "Capsule"
+        }
+      ],
+      "answer": "Tin can",
+      "answ_desc": "Tin can! Y luego  «Planet Earth is blue, and thereʼs nothing I can do». El mayor Tom se sienta en una lata de hierro en el espacio exterior y no puede hacer nada. Y aquí hay un hecho: la canción de Elton John «Rocketman» se parece a «Space Oddity». En primer lugar, fue producido por el mismo Gus Dudgeon. En segundo lugar, el personaje principal también se pierde en el espacio. El propio Bowie dijo a veces durante los conciertos que cantaría «Rocketman» e interpretó «Space Oddity». Hay varios videos en YouTube donde Bowie aparece como autor de Rocketman, aunque Elton John lo realiza."
+    },
+    {
+      "id": 9,
+      "question": "Though I'm past one hundred thousand miles I'm feeling very <span style=color:#FC0FC0; > ___</span>",
+      "options": [
+        {
+          "a": "…feeling very ill"
+        },
+        {
+          "b": "…feeling very chill"
+        },
+        {
+          "c": "…feeling very bad"
+        },
+        {
+          "d": "…feeling very still"
+        }
+      ],
+      "answer": "…feeling very still",
+      "answ_desc": "El mayor Tom está a una altura de cien mil millas, y está completamente inmóvil. ¡La respuesta correcta es  «still»!Pocos días después del lanzamiento de Space Oddity, la nave espacial Apolo 11 con los astronautas Neil Armstrong, Michael Collins y Edwin Aldrin partirán por primera vez en la historia de la humanidad. 20 de julio de 1969 Neil Armstrong dará el primer paso en la superficie de la Luna y colocará la bandera estadounidense allí."
+    },
+    {
+      "id": 10,
+      "question": "And I think  my spaceship knows which way to go. Tell my<span style=color:#FC0FC0; > ___</span> I love her very much... She knows",
+      "options": [
+        {
+          "a": "Mom"
+        },
+        {
+          "b": "Wife"
+        },
+        {
+          "c": "Doughter"
+        }
+      ],
+      "answer": "Wife",
+      "answ_desc": "El Mayor Tom le pide decir a su esposa que la ama mucho. La radio de la BBC transmitió lo que le sucedió a la tripulación de Neil Armstrong en el espacio. Durante los descansos, los anfitriones pusieron una nueva canción de David Bowie."
+    },
+    {
+      "id": 11,
+      "question": "Ground Control to Major Tom! Your<span style=color:#FC0FC0; > ___</span>, there's something wrong",
+      "options": [
+        {
+          "a": "…connection is interrupted"
+        },
+        {
+          "b": "…сircuit's dead"
+        },
+        {
+          "c": "…helmet has broken"
+        },
+        {
+          "d": "…air is over"
+        }
+      ],
+      "answer": "…сircuit's dead",
+      "answ_desc": "Sus circuitos estan muertos, algo esta mal. El mayor Tom vuela al espacio exterior."
+    }
+  ]
+}

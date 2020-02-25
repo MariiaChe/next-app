@@ -1,0 +1,118 @@
+#questions .container {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 560px;
+  background: white;
+  border: 2px solid #d4d5d9;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+}
+#questions .question {
+  position: relative;
+}
+#questions .question img {
+  border-radius: 8px;
+  width: 100%;
+}
+#questions .span {
+  color: #fc0fc0;
+  font-weight: bolder;
+}
+#questions .question-desc {
+  font-size: 34px;
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#questions .question-number {
+  font-size: 28px;
+  position: absolute;
+  color: white;
+  top: -25px;
+  left: 10px;
+}
+#questions .options {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+#questions .option {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 15px;
+  text-align: left;
+}
+#questions .option:last-child {
+  border: none;
+}
+#questions .option:hover {
+  background-color: #f2f2f2;
+  transition: 150ms;
+  cursor: pointer;
+}
+#questions .option:last-child:hover {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#questions .option:first-child:hover {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#questions .option:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#questions .option:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#questions button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #21212c;
+  color: #d8d9dd;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+#questions button:focus {
+  outline: none;
+}
+#questions .answ-desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#questions .wrap-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#questions .wrap-img img {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.option.true {
+  border-left: 4px solid green !important;
+  padding: 10px 11px !important;
+}
+.option.false {
+  border-left: 4px solid red !important;
+  padding: 10px 11px !important;
+}
+.option.true img,
+.option.false img {
+  width: 100%;
+  border-radius: 8px;
+}
