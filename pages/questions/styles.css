@@ -15,6 +15,7 @@
 #questions .question img {
   border-radius: 8px;
   width: 100%;
+  height: 350px;
 }
 #questions .span {
   color: #fc0fc0;
